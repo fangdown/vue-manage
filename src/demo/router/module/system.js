@@ -1,6 +1,6 @@
 const tag = '/demo/system'
 const log = () => import(/* webpackChunkName: "demo" */ '../../pages/system/log')
-const html2canvas = () => import(/* webpackChunkName: "demo" */ '../../pages/system/html2canvas')
+const html2canvas = () => import(/* webpackChunkName: "demo" */ '../../pages/system/html2canvas/html2canvas')
 
 export default [
   {
